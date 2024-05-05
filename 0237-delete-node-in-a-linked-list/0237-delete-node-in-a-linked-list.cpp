@@ -17,6 +17,6 @@ public:
             prev = current;
             current = current->next;
         }
-        prev->next=nullptr;
+        prev->next = nullptr;
     }
 };
